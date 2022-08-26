@@ -14,7 +14,7 @@ there](x-github-client://openRepo/https://github.com/AppMana/unity-starter).
     3. [Download Unity](https://unity3d.com/get-unity/download). You will need to install the latest version of Unity 
 2021.3. Need help? [Watch this tutorial](https://www.youtube.com/watch?v=rE03nC4K_Eg).
  2. Work on your project.
-    1. Open the **Game** scene in `Assets/Scenes/Game.unity`
+    1. Open the **Game** scene in `Assets/Scenes/SampleScene.unity`
     2. Make your changes. Look carefully at the hierarchy. Delete the sample content and re-enable the appropriate 
 objects. The objects you need are labeled.
     3. Do you need something to happen when the player connects to your stream? Add methods to **On Player Connected** 
