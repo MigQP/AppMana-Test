@@ -34,8 +34,7 @@ repository. You will receive a URL with your project.
 ### Bonus Features
 
  - Use the **ScreenView** and **MaterialScreen** components to easily add and edit screens to your user interface.
- - Use CineMachine to set up your cameras. The **Turntable Camera** game object in the **Space Holo Table** hierarchy 
-is an example of an orbital control turn table.
+ - Use CineMachine to set up your cameras.
  - Use UniRx to make your user interface reactive.
  - Use UniTask instead of coroutines for more control over your creative.
 
