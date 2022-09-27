@@ -390,7 +390,6 @@ MonoBehaviour:
   m_AudioListener: {fileID: 330585544}
   m_CanvasScalers:
   - {fileID: 1970601400}
-  m_BaseScale: 1
   m_OnPlayerConnected:
     m_PersistentCalls:
       m_Calls: []
@@ -399,6 +398,7 @@ MonoBehaviour:
       m_Calls: []
   m_InputsOnlyAffectThisHierarchyOrAny: {fileID: 0}
   m_EnableStreamingInEditor: 0
+  m_BaseScale: 1
 --- !u!1 &365089664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,6 +1055,7 @@ MonoBehaviour:
     type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 2
+  m_CursorLockBehavior: 0
 --- !u!114 &1394500303
 MonoBehaviour:
   m_ObjectHideFlags: 0
