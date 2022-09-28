@@ -9,7 +9,7 @@
         "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
         "com.neuecc.unirx": "https://github.com/neuecc/UniRx.git?path=Assets/Plugins/UniRx/Scripts"
       },
-      "hash": "6b4e63cbda153a11d02941faab74a34be4a7f702"
+      "hash": "a9bbcf4adb85335534fce927cdb38826bb7be151"
     },
     "com.cysharp.unitask": {
       "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
@@ -83,7 +83,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.4.1",
+      "version": "1.4.2",
       "depth": 0,
       "source": "registry",
       "dependencies": {
