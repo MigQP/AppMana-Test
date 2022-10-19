@@ -25,7 +25,7 @@ tips](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.3/manual/Migrati
     5. Commit and push your changes.
     6. Whenever you push your changes to your fork, your link will update automatically with a new build.
  3. Get your project live. Join our [Discord](https://discord.gg/pnr3aUrt4y) and message us to build your forked 
-repository. You will receive a URL with your project.
+repository. You will receive a URL with your project. You can also sign up at [appmana.com](https://appmana.com).
 
 ### Project Requirements
 
