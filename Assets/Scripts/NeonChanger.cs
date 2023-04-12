@@ -9,6 +9,9 @@ public class NeonChanger : MonoBehaviour
     public Renderer[] children;
 
 
+    public Material[] original;
+
+
     void Awake()
     {
 
@@ -21,6 +24,8 @@ public class NeonChanger : MonoBehaviour
             Material[] materials = rend.materials;
             //add to dictionary renderer and material
             originalMaterials[rend] = materials;
+
+            original = materials;
         }
 
 
@@ -40,11 +45,14 @@ public class NeonChanger : MonoBehaviour
                 {
                     mats[j] = newMaterial1;
                 }
-
+                else
+                {
+                    mats[j] = original[j];
+                }
             }
             rend.materials = mats;
 
-            Debug.Log(rend.materials[2].name);
+            //Debug.Log(rend.materials[2].name);
         }
 
 
