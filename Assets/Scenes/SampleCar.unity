@@ -8,8 +8,9 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: aca4a9c3bc929c74a91f2168d6ce647d
+  m_OcclusionCullingData: {fileID: 36300000, guid: ecae415b38b16804095170f15d43128c,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -97,7 +98,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: d424a9e61b9c7264ab71303d84ddc26e,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -1122,7 +1124,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &405388204
 MeshCollider:
@@ -1285,11 +1287,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocky Ground_LOD0__weloeh3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 79e6d4b5b6669ed418e494bf4445594b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 934148783581422097, guid: 79e6d4b5b6669ed418e494bf4445594b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d3383ba23a5f48a4c91d1746674a89ff, type: 2}
+    - target: {fileID: 1969328689580212412, guid: 79e6d4b5b6669ed418e494bf4445594b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79e6d4b5b6669ed418e494bf4445594b, type: 3}
 --- !u!1 &961739749
@@ -1521,11 +1533,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocky Ground_LOD0__weloeh3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 79e6d4b5b6669ed418e494bf4445594b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 934148783581422097, guid: 79e6d4b5b6669ed418e494bf4445594b,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d3383ba23a5f48a4c91d1746674a89ff, type: 2}
+    - target: {fileID: 1969328689580212412, guid: 79e6d4b5b6669ed418e494bf4445594b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79e6d4b5b6669ed418e494bf4445594b, type: 3}
 --- !u!1001 &1426796983
