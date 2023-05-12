@@ -304,7 +304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Yellow
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -593,7 +593,46 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 664236038}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2069883212}
+        m_TargetAssemblyTypeName: BodyChanger, Assembly-CSharp
+        m_MethodName: ChangeToNewMaterial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: ce5d2d1bddd2d9744b0c2a9e85ca9871,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1808072746}
+        m_TargetAssemblyTypeName: BodyChanger, Assembly-CSharp
+        m_MethodName: ChangeToNewMaterial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: ce5d2d1bddd2d9744b0c2a9e85ca9871,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1381598437}
+        m_TargetAssemblyTypeName: BodyChanger, Assembly-CSharp
+        m_MethodName: ChangeToNewMaterial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: ce5d2d1bddd2d9744b0c2a9e85ca9871,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &664236038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1016,7 +1055,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 'Red
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1257,7 +1298,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 'White
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1340,6 +1383,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 885946038}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1381598433 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7291570214162154511, guid: ac75947608eede948894cdfc444349af,
+    type: 3}
+  m_PrefabInstance: {fileID: 1426796983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1381598437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381598433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399b05df79ac5e34d8f8e7514beccdaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changingMaterialName: body
 --- !u!1001 &1401603479
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1511,6 +1573,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8206954945438884884, guid: ac75947608eede948894cdfc444349af,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: c43358fe534ab7b479f099a105355fd8, type: 2}
+    - target: {fileID: 8206954945438884884, guid: ac75947608eede948894cdfc444349af,
+        type: 3}
+      propertyPath: m_Materials.Array.data[8]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4aa3196f6030e8e4bbd75df9aaf5d4fb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac75947608eede948894cdfc444349af, type: 3}
 --- !u!1 &1484855432
@@ -1596,7 +1668,46 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1484855435}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2069883212}
+        m_TargetAssemblyTypeName: BodyChanger, Assembly-CSharp
+        m_MethodName: ChangeToNewMaterial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: c84801327deaf954ea52b0b33dafbb27,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1808072746}
+        m_TargetAssemblyTypeName: BodyChanger, Assembly-CSharp
+        m_MethodName: ChangeToNewMaterial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: c84801327deaf954ea52b0b33dafbb27,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1381598437}
+        m_TargetAssemblyTypeName: BodyChanger, Assembly-CSharp
+        m_MethodName: ChangeToNewMaterial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: c84801327deaf954ea52b0b33dafbb27,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1484855435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1718,7 +1829,46 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1647193361}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2069883212}
+        m_TargetAssemblyTypeName: BodyChanger, Assembly-CSharp
+        m_MethodName: ChangeToNewMaterial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: c43358fe534ab7b479f099a105355fd8,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1808072746}
+        m_TargetAssemblyTypeName: BodyChanger, Assembly-CSharp
+        m_MethodName: ChangeToNewMaterial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: c43358fe534ab7b479f099a105355fd8,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1381598437}
+        m_TargetAssemblyTypeName: BodyChanger, Assembly-CSharp
+        m_MethodName: ChangeToNewMaterial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: c43358fe534ab7b479f099a105355fd8,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1647193361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2000,6 +2150,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1772787764}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1808072742 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7384971969204648711, guid: ac75947608eede948894cdfc444349af,
+    type: 3}
+  m_PrefabInstance: {fileID: 1426796983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1808072746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808072742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399b05df79ac5e34d8f8e7514beccdaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changingMaterialName: body
 --- !u!1 &1968594858
 GameObject:
   m_ObjectHideFlags: 0
@@ -2134,6 +2303,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb219b23cdf4b314f94a27bca3cc8012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2069883208 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6677698927987948203, guid: ac75947608eede948894cdfc444349af,
+    type: 3}
+  m_PrefabInstance: {fileID: 1426796983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2069883212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069883208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399b05df79ac5e34d8f8e7514beccdaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changingMaterialName: body
 --- !u!1 &2138474716
 GameObject:
   m_ObjectHideFlags: 0
