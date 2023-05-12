@@ -26,8 +26,8 @@ public class MoveAroundObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float mouseX = Mouse.current.delta.x.ReadValue() * mouseSensitivity;
-        float mouseY = Mouse.current.delta.y.ReadValue() * mouseSensitivity;
+        float mouseX = Pointer.current.delta.x.ReadValue() * mouseSensitivity;
+        float mouseY = Pointer.current.delta.y.ReadValue() * mouseSensitivity;
 
         //Debug.Log(mouseX);
 
@@ -48,7 +48,7 @@ public class MoveAroundObject : MonoBehaviour
 
         transform.position = target.position - transform.forward * distance;
         
-
+       
     }
 
 
