@@ -44,7 +44,7 @@ public class MoveAroundObject : MonoBehaviour
 
         distance = Mathf.Clamp(distance, 4, 11);
 
-        Debug.Log(distance);
+        //Debug.Log(distance);
 
         transform.position = target.position - transform.forward * distance;
         
